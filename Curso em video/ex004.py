@@ -1,0 +1,8 @@
+a = input('Digite algo ')
+print('O tipo primitivo deste valor é', type(a))
+print('Só tem espaços?', a.isspace())
+print('É somente números?' , a.isnumeric())
+print('Está Capitalizada? ', a.istitle())
+print('É em Caixa alta?', a.isupper())
+print('É Alfabético?', a.isalpha())
+print('É Alfanumérico?', a.isalnum())
