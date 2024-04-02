@@ -1,0 +1,7 @@
+nome=input(str('Qual o Seu nome Comleto? : '))
+print('Seu nome Completo é: {}'.format(nome))
+print('Seu nome todo em Caixa Alta é: {}'.format(nome.upper()))
+print('Seu nome completo em caixa baixa é: {}'.format(nome.lower()))
+print('O seu nome tem {} letras'.format(len(nome)-nome.count(' ')))
+separa = nome.split()
+print('Seu primeiro nome é {} e ele tem {} letras'.format(separa[4], len(separa[4])))
